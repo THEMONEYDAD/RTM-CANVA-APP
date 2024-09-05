@@ -1,6 +1,6 @@
 import { Button, Rows, Text } from "@canva/app-ui-kit";
 import { addNativeElement } from "@canva/design";
-import * as styles from "styles/components.css";
+import './styles/components.css';
 
 export const App = () => {
   const onClick = () => {
@@ -11,8 +11,8 @@ export const App = () => {
   };
 
   return (
-    <div className={styles.scrollContainer}>
-      <Rows spacing="2u">
+<div className="scrollContainer">
+<Rows spacing="2u">
         <Text>
           To make changes to this app, edit the <code>src/app.tsx</code> file,
           then close and reopen the app in the editor to preview the changes.
